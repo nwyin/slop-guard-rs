@@ -78,7 +78,7 @@ slop-guard ships as a Claude Code plugin with a `/slop-guard` skill. The skill r
 Add the marketplace and install:
 
 ```
-/plugin marketplace add tnguyen21/slop-guard-rs
+/plugin marketplace add nwyin/slop-guard-rs
 /plugin install slop-guard@slop-guard
 ```
 

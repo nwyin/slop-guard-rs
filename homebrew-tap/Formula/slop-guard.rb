@@ -2,27 +2,27 @@
 # when a new version is tagged. See .github/workflows/release.yml for details.
 #
 # To use this tap:
-#   brew tap tnguyen21/slop-guard
+#   brew tap nwyin/slop-guard
 #   brew install slop-guard
 
 class SlopGuard < Formula
   desc "Detect AI slop patterns in prose"
-  homepage "https://github.com/tnguyen21/slop-guard-rs"
+  homepage "https://github.com/nwyin/slop-guard-rs"
   version "0.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tnguyen21/slop-guard-rs/releases/download/v0.1.0/slop-guard-macos-aarch64"
+      url "https://github.com/nwyin/slop-guard-rs/releases/download/v0.1.0/slop-guard-macos-aarch64"
       sha256 "PLACEHOLDER_AARCH64_SHA256"
     else
-      url "https://github.com/tnguyen21/slop-guard-rs/releases/download/v0.1.0/slop-guard-macos-x86_64"
+      url "https://github.com/nwyin/slop-guard-rs/releases/download/v0.1.0/slop-guard-macos-x86_64"
       sha256 "PLACEHOLDER_X86_64_SHA256"
     end
   end
 
   on_linux do
-    url "https://github.com/tnguyen21/slop-guard-rs/releases/download/v0.1.0/slop-guard-linux-x86_64-musl"
+    url "https://github.com/nwyin/slop-guard-rs/releases/download/v0.1.0/slop-guard-linux-x86_64-musl"
     sha256 "PLACEHOLDER_LINUX_MUSL_SHA256"
   end
 

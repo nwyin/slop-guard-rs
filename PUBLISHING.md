@@ -4,8 +4,8 @@
 
 1. **GitHub repository** - Update repository URLs in `Cargo.toml`:
    ```toml
-   homepage = "https://github.com/tnguyen21/slop-guard-rs"
-   repository = "https://github.com/tnguyen21/slop-guard-rs"
+   homepage = "https://github.com/nwyin/slop-guard-rs"
+   repository = "https://github.com/nwyin/slop-guard-rs"
    ```
 
 2. **GitHub secrets** - Add to repository settings:
@@ -69,8 +69,8 @@ Create a Homebrew tap:
    ```ruby
    class SlopGuard < Formula
      desc "Detect AI slop patterns in prose"
-     homepage "https://github.com/tnguyen21/slop-guard-rs"
-     url "https://github.com/tnguyen21/slop-guard-rs/archive/v0.1.0.tar.gz"
+     homepage "https://github.com/nwyin/slop-guard-rs"
+     url "https://github.com/nwyin/slop-guard-rs/archive/v0.1.0.tar.gz"
      sha256 "..."
      license "MIT"
 
@@ -81,7 +81,7 @@ Create a Homebrew tap:
      end
    end
    ```
-3. Users install with: `brew install tnguyen21/slop-guard/slop-guard`
+3. Users install with: `brew install nwyin/slop-guard/slop-guard`
 
 Alternatively, submit to [homebrew-core](https://github.com/Homebrew/homebrew-core) after gaining traction.
 

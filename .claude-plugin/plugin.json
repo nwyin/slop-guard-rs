@@ -7,7 +7,7 @@
     "email": "nwyin@hey.com"
   },
   "homepage": "https://nwyin.com",
-  "repository": "https://github.com/tnguyen21/slop-guard-rs",
+  "repository": "https://github.com/nwyin/slop-guard-rs",
   "license": "MIT",
   "keywords": ["ai", "slop", "prose", "linting", "llm", "writing"]
 }

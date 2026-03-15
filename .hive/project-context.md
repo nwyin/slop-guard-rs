@@ -53,7 +53,7 @@ Data flow: text in → split into sentences/lines → each rule function scans f
 - `serde` + `serde_json` (1.x) — JSON serialization of results and hyperparameter config
 - `clap` (4.x, derive feature) — CLI argument parsing for both binaries
 - No external APIs, databases, or network calls. Pure text-in, JSON-out.
-- Published to crates.io as `slop-guard`. Distributed via Homebrew tap (`tnguyen21/homebrew-slop-guard`) and GitHub releases (Linux .deb, macOS universal, Windows).
+- Published to crates.io as `slop-guard`. Distributed via Homebrew tap (`nwyin/homebrew-slop-guard`) and GitHub releases (Linux .deb, macOS universal, Windows).
 
 ## Gotchas
 - `lib.rs` is a monolith — any structural change touches one large file. Read the section headers to navigate.
